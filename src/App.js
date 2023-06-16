@@ -69,7 +69,7 @@ function App() {
 
   return (
     <div className="w-screen h-screen bg-slate-500 flex ">
-      <div className="w-[30%] h-[70%] bg-white m-auto">
+      <div className="w-full h-full lg:w-[50%] lg:h-[60%] xl:w-[30%] xl:h-[70%] bg-white m-auto">
         <form
           className="flex border-b-2 justify-between mb-10 px-10 py-2"
           onSubmit={handleSubmit}
